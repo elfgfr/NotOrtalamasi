@@ -3,14 +3,11 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        // Değişkenleri tanımla
+        
         int mat, fizik, kimya, turkce, tarih, muzik;
-
-        // Scaanner sınıfını tanımladık
-        // Scaanner sınıfını kullanabilmemiz için bir nesne üretmemiz lazım
+        
         Scanner inp = new Scanner(System.in);
-
-        // Kullanıcıdan değerleri al
+        
         System.out.print("Matematik notunuz : ");
         mat = inp.nextInt();
 
